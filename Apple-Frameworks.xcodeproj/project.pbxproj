@@ -29,9 +29,50 @@
 		26ACB93F2CA7070B003F83B9 /* Apple-FrameworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-FrameworksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		265AB6992CA8190B00C2EB9C /* Exceptions for "Apple-Frameworks" folder in "Apple-Frameworks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Apple_FrameworksApp.swift,
+				Assets.xcassets,
+				Model/Framework.swift,
+				"Preview Content/Preview Assets.xcassets",
+				Screens/FrameworkDetailView/FrameworkDetailView.swift,
+				Screens/FrameworkGridView/ContentView.swift,
+				Screens/FrameworkGridView/FrameworkGridViewModel.swift,
+				"UIKit Components/SafariView.swift",
+				Views/Buttons/FrameworksButton.swift,
+				Views/Buttons/XDismissButton.swift,
+				Views/View/FrameworkTitleView.swift,
+			);
+			target = 26ACB9242CA70709003F83B9 /* Apple-Frameworks */;
+		};
+		265AB69A2CA8190B00C2EB9C /* Exceptions for "Apple-Frameworks" folder in "Apple-FrameworksUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Apple_FrameworksApp.swift,
+				Assets.xcassets,
+				Model/Framework.swift,
+				"Preview Content/Preview Assets.xcassets",
+				Screens/FrameworkDetailView/FrameworkDetailView.swift,
+				Screens/FrameworkGridView/ContentView.swift,
+				Screens/FrameworkGridView/FrameworkGridViewModel.swift,
+				"UIKit Components/SafariView.swift",
+				Views/Buttons/FrameworksButton.swift,
+				Views/Buttons/XDismissButton.swift,
+				Views/View/FrameworkTitleView.swift,
+			);
+			target = 26ACB93E2CA7070B003F83B9 /* Apple-FrameworksUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		26ACB9272CA70709003F83B9 /* Apple-Frameworks */ = {
+		265AB68D2CA8190B00C2EB9C /* Apple-Frameworks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				265AB6992CA8190B00C2EB9C /* Exceptions for "Apple-Frameworks" folder in "Apple-Frameworks" target */,
+				265AB69A2CA8190B00C2EB9C /* Exceptions for "Apple-Frameworks" folder in "Apple-FrameworksUITests" target */,
+			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
 		};
@@ -75,7 +116,7 @@
 		26ACB91C2CA70709003F83B9 = {
 			isa = PBXGroup;
 			children = (
-				26ACB9272CA70709003F83B9 /* Apple-Frameworks */,
+				265AB68D2CA8190B00C2EB9C /* Apple-Frameworks */,
 				26ACB9382CA7070B003F83B9 /* Apple-FrameworksTests */,
 				26ACB9422CA7070B003F83B9 /* Apple-FrameworksUITests */,
 				26ACB9262CA70709003F83B9 /* Products */,
@@ -106,9 +147,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				26ACB9272CA70709003F83B9 /* Apple-Frameworks */,
 			);
 			name = "Apple-Frameworks";
 			packageProductDependencies = (
@@ -154,6 +192,7 @@
 				26ACB9412CA7070B003F83B9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				265AB68D2CA8190B00C2EB9C /* Apple-Frameworks */,
 				26ACB9422CA7070B003F83B9 /* Apple-FrameworksUITests */,
 			);
 			name = "Apple-FrameworksUITests";
